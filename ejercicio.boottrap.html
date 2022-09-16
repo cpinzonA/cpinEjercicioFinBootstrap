@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validar</title>
+    <link rel="stylesheet" href="../2parte css+html/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+    <style>
+.container{
+    text-align: center;
+    height: 50%;
+    width: 40%;
+    margin: 20px;
+    border: solid 2px;
+    box-shadow: 2px 2px mediumslateblue;
+    padding: 30px;
+    border-radius: 6px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="form">
+            <img src="https://www.magocad.com.mx/wp-content/uploads/2020/04/Icono1-300x300.png" alt="acceso">
+            <h1 class="title justify-content-md-left mt-3">ingreso usuarios</h1>
+            <label class="form-label mt-2 justify-content-left mt-3" for="name">username</label>
+            <div class="input-group has-validation">
+            <input type="text" class="form-control mt-2 is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                Por favor ingresa nombre de usuario.
+              </div>
+            </div>
+            <label class="mt-2 text-left" for="password">password</label>
+            <div class="input-group has-validation">
+            <input type="password" class="form-control mt-2"  id="validationPassword" placeholder="por favor ingresa la clave" required>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-light mt-4 border" type="submit">ACCEDER</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

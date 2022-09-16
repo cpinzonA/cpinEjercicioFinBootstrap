@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cursoBootstrap</title>
+    <link rel="stylesheet" href="../2parte css+html/bootstrap-5.2.1-dist/css/bootstrap.min.css">
+
+    <style>
+      body{
+      background-color: aquamarine;
+     }
+     .container{
+      margin: 10%;
+         background-image: url(https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg);
+         background-repeat: no-repeat;
+         color:red;
+         background-size: cover;
+         border-radius: 12px;
+         font-size: 30px;
+        }
+        </style>     
+  </head>
+<body>
+  <body>
+  <script src="../2parte css+html/bootstrap-5.2.1-dist/js/bootstrap.bundle.js"></script>
+    <div class="container text-left" >
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <label class="mt-2" for="name">mail</label>
+            <input type="email" class="form-control mt-2" id="mail" placeholder="mail">
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="clave">clave</label>
+            <input type="password" class="form-control mt-2" id="clave" placeholder="clave">
+          </div>
+        </div>
+          <div class="mb-3">
+            <label for="Direccion">Direccion</label>
+            <input type="text" class="form-control mt-2" id="Direccion" placeholder="Direccion">
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="mb-3">
+                <label for="ciudad">ciudad</label>
+                <input type="text" class="form-control mt-2" id="ciudad" placeholder="ciudad">
+              </div>
+            </div>
+            <div class="col">
+              <div class="mb-3">
+                <label for="provincia">provincia</label>
+                <select class="form-select" aria-label="provincia">
+                  <option selected>provincia</option>
+                  <option value="1">santander</option>
+                  <option value="2">atlantico</option>
+                  <option value="3">norte de santander</option>
+                </select>
+              </div>
+            </div>
+            <div class="col">
+              <label for="codigoP">codigo Postal</label>
+                <input type="text" class="form-control mt-2" placeholder="codigoP" id="codigoP">
+            </div>
+          </div>
+          
+          
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control mt-2" id="message" rows="2" placeholder="message"></textarea>
+          </div>
+        <div class="mb-3" >
+          <input type="checkbox" id="terminos"><p class="display-font-6"> acepto terminos y condiciones</p>
+        </div>
+          <div class="mb-3">
+          
+          <button class="btn btn-primary">SEND</button>
+          </div>
+</div>
+</body>
+</html>

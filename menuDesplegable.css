@@ -1,0 +1,43 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 3px;
+    background-color: aqua;
+    color: aliceblue;
+    width: 90%;
+    margin: 1px;
+    font-size: 56px;  
+    gap: 20px;
+  }
+.container>li:hover{
+    
+    color: black;
+    display: block;
+}
+ul.submenu{
+    list-style: none;
+    display: none;
+}
+.container>li:hover .submenu{
+    display: block;
+}
+img{
+    height: 3px;
+    width: 3px;
+    max-width: 3px;
+    max-height: 3px;
+}
